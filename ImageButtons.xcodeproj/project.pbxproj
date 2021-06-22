@@ -13,6 +13,8 @@
 		86288A5026805FD700CA32A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86288A4F26805FD700CA32A4 /* Assets.xcassets */; };
 		86288A5326805FD700CA32A4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86288A5226805FD700CA32A4 /* Preview Assets.xcassets */; };
 		86288A5626805FD700CA32A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86288A5426805FD700CA32A4 /* LaunchScreen.storyboard */; };
+		86288A5F2680603500CA32A4 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86288A5E2680603500CA32A4 /* CircleImage.swift */; };
+		86288A62268068AB00CA32A4 /* myWebPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86288A61268068AB00CA32A4 /* myWebPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		86288A5226805FD700CA32A4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		86288A5526805FD700CA32A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		86288A5726805FD700CA32A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86288A5E2680603500CA32A4 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		86288A61268068AB00CA32A4 /* myWebPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myWebPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				86288A4926805FD600CA32A4 /* AppDelegate.swift */,
 				86288A4B26805FD600CA32A4 /* SceneDelegate.swift */,
 				86288A4D26805FD600CA32A4 /* ContentView.swift */,
+				86288A61268068AB00CA32A4 /* myWebPage.swift */,
+				86288A5E2680603500CA32A4 /* CircleImage.swift */,
 				86288A4F26805FD700CA32A4 /* Assets.xcassets */,
 				86288A5426805FD700CA32A4 /* LaunchScreen.storyboard */,
 				86288A5726805FD700CA32A4 /* Info.plist */,
@@ -145,7 +151,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86288A62268068AB00CA32A4 /* myWebPage.swift in Sources */,
 				86288A4A26805FD600CA32A4 /* AppDelegate.swift in Sources */,
+				86288A5F2680603500CA32A4 /* CircleImage.swift in Sources */,
 				86288A4C26805FD600CA32A4 /* SceneDelegate.swift in Sources */,
 				86288A4E26805FD600CA32A4 /* ContentView.swift in Sources */,
 			);

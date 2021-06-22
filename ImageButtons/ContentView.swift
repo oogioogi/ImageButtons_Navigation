@@ -8,9 +8,27 @@
 import SwiftUI
 
 struct ContentView: View {
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView{
+            VStack{
+                Image("바다-unsplash")
+                    .resizable()
+                    .offset(x: 0, y: -100)
+                
+                CircleImage()
+                    .offset(y: -250)
+                HStack{
+                    NavigationLink(
+                        destination: myWebPage( url: "https://www.youtube.com/channel/UC3h9QhRUuzhBwvFRjFcXO6w"),
+                        label: {
+                            Text("조선소 전기쟁이!")
+                        })
+                }
+                .offset(y: -230)
+            }
+        }
+        
     }
 }
 
